@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.books {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  gap: 50px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  background-color: #c6bdbd;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.book:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.book img {
+  width: 300px;
+  height: 450px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.buttons button, p {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 26px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
